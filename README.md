@@ -4,7 +4,7 @@ A transparent AI-assisted web design concept documenting planning, generation, c
 
 ## Live Demo
 
-Deployment URL is recorded here only after GitHub Pages verification.
+[Open the live site](https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/)
 
 ## Screenshot
 
