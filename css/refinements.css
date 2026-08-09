@@ -1,0 +1,106 @@
+/* High-contrast case-study system for the dark Work section. */
+#work {
+  position: relative;
+  overflow: hidden;
+}
+
+#work::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--alt), transparent);
+}
+
+#work .section-head,
+#work .card-grid {
+  position: relative;
+  z-index: 1;
+}
+
+#work .card-grid { gap: 1rem; }
+
+#work .card {
+  --case-accent: var(--accent);
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  min-height: 340px;
+  padding: 2rem;
+  overflow: hidden;
+  border-color: color-mix(in srgb, var(--case-accent) 35%, var(--ink));
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 1rem 3rem #05071355;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+#work .card:nth-child(2) { --case-accent: var(--alt); }
+#work .card:nth-child(3) { --case-accent: #ff9b54; }
+
+#work .card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 auto;
+  height: .45rem;
+  background: var(--case-accent);
+}
+
+#work .card::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  width: 11rem;
+  height: 11rem;
+  right: -6rem;
+  bottom: -6rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--case-accent) 13%, transparent);
+}
+
+#work .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1.5rem 3.6rem #05071380;
+}
+
+#work .tag {
+  color: color-mix(in srgb, var(--case-accent) 76%, var(--ink));
+  margin: 1rem 0 .65rem;
+}
+
+#work .card h3 {
+  font-size: clamp(1.65rem, 2.3vw, 2.4rem);
+  margin: .25rem 0 1rem;
+}
+
+#work .card p { margin-top: 0; }
+
+#work .card button {
+  align-self: flex-start;
+  min-height: 2.8rem;
+  margin-top: auto;
+  padding: .55rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 800;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+
+#work .card button:hover {
+  background: var(--case-accent);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+main section[id] { scroll-margin-top: 6rem; }
+
+@media (max-width: 600px) {
+  #work .card {
+    min-height: 300px;
+    padding: 1.5rem;
+  }
+}

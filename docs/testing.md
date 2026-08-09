@@ -23,3 +23,7 @@ Semantic landmarks, a single page heading, labelled controls, visible focus trea
 ## Browser limitations
 
 Firefox and WebKit executables were not available in the bundled environment. Safari hardware testing is unavailable on Windows. Standards-based HTML/CSS/JavaScript and reduced-motion fallbacks are used, but those browsers are recorded as not device-tested rather than claimed as passed.
+
+## Contrast regression — August 9, 2026
+
+The case-study cards were retested after a dark-section inheritance defect was reported. Computed styles now resolve to dark text (`rgb(16, 18, 37)`) on white cards and white text on dark action buttons. The updated section has no horizontal overflow, missing images or browser console issues. Modal opening, Escape dismissal and focus restoration were also rechecked.
