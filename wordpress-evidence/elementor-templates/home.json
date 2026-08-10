@@ -1,0 +1,34 @@
+{
+    "version": "4.2.2",
+    "title": "Home",
+    "type": "page",
+    "page_settings": {},
+    "content": [
+        {
+            "id": "2a25331",
+            "elType": "container",
+            "settings": {
+                "content_width": "full",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "1894a4d",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<section class=\"pv-hero\"><div class=\"hero-grid\"><div><span class=\"issue\">Original universe - Issue 001</span><h1>Every panel <span>opens a world.</span></h1><p class=\"hero-copy\">Enter Panelverse: an original archive of heroes, rivals and impossible cities connected by a fracture in the sky. Built as an independent educational comic experience.</p><div class=\"pv-actions\"><a class=\"pv-btn\" href=\"http://127.0.0.1:8096/heroes/\">Meet the heroes</a><a class=\"pv-btn alt\" href=\"http://127.0.0.1:8096/stories/\">Read the issues</a></div></div><div class=\"hero-art\" aria-label=\"Abstract original superhero silhouette in a comic burst\"><div class=\"burst\"></div><div class=\"hero-figure\"></div><span class=\"sound one\">KRA-KOOM!</span><span class=\"sound two\">THE RIFT OPENS</span></div></div></section>\n<section class=\"pv-section yellow\"><div class=\"pv-wrap\"><div class=\"pv-head\"><div><p class=\"kicker\">The premise</p><h2>One rupture.<br>Three realities.</h2></div><p>A cosmic signal tears through Meridian City, joining three dimensions and forcing unlikely guardians to decide what deserves to survive.</p></div><div class=\"panel-grid\"><article class=\"comic-panel\"><span class=\"number\">01</span><h3>The Signal</h3><p>A pattern hidden in city light calls to inventor Mara Voss.</p></article><article class=\"comic-panel\"><span class=\"number\">02</span><h3>The Fracture</h3><p>Gravity folds, districts overlap and lost histories become visible.</p></article><article class=\"comic-panel\"><span class=\"number\">03</span><h3>The Choice</h3><p>Every power carries a cost; every alliance changes the timeline.</p></article></div></div></section>\n<section class=\"pv-section dark\"><div class=\"pv-wrap\"><div class=\"pv-head\"><div><p class=\"kicker\">Featured characters</p><h2>Choose your signal.</h2></div><a class=\"pv-btn\" href=\"http://127.0.0.1:8096/heroes/\">Open archive</a></div><div class=\"character-grid\"><article class=\"character-card\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Light architecture</span><h3>Nova Circuit</h3><p>Engineer Mara Voss turns hard light into temporary machines.</p></div></article><article class=\"character-card\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Kinetic echo</span><h3>Rift Runner</h3><p>Courier Ilyas Reed stores motion and releases it in impossible leaps.</p></div></article><article class=\"character-card\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Shadow memory</span><h3>Vanta Echo</h3><p>A historian who can enter the memories held by darkness.</p></div></article></div></div></section>\n<section class=\"pv-section red\"><div class=\"pv-wrap\"><div class=\"pv-head\"><div><p class=\"kicker\">Current story arc</p><h2>City of borrowed suns.</h2></div><p>Meridian wakes beneath three skies. The heroes have six nights to separate the worlds before the Null Crown makes the overlap permanent.</p></div><div class=\"pv-actions\"><a class=\"pv-btn alt\" href=\"http://127.0.0.1:8096/stories/\">Browse story issues</a><a class=\"pv-btn alt\" href=\"http://127.0.0.1:8096/timeline/\">Follow the timeline</a></div></div></section>\n<section class=\"pv-section\"><div class=\"pv-wrap\"><div class=\"disclaimer\">Panelverse is an original educational project. It is not an official Marvel website and uses no Marvel characters, logos, stories or copied interface assets.</div></div></section>"
+                    },
+                    "elements": []
+                }
+            ]
+        }
+    ]
+}

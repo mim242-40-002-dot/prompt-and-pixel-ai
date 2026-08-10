@@ -2,15 +2,14 @@
 
 ```mermaid
 flowchart TD
-    A[Read responsible AI proposition]
-    B[Review principles]
-    C[Explore workflow tabs]
-    D[Open case study]
-    E[Prepare project enquiry]
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A[Enter Panelverse]
+    B[Understand the fracture premise]
+    C[Browse heroes or villains]
+    D[Filter the character archive]
+    E[Open an accessible profile dialog]
+    F[Explore stories and timeline]
+    G[Use Fan Zone or contact validation locally]
+    A --> B --> C --> D --> E --> F --> G
 ```
 
-The flow reflects the implemented content and interaction sequence for Prompt & Pixel.
+The sequence balances world-building with task clarity and keeps non-transmitting fan/contact interactions explicit.

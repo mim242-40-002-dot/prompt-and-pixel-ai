@@ -1,0 +1,34 @@
+{
+    "version": "4.2.2",
+    "title": "Villains",
+    "type": "page",
+    "page_settings": {},
+    "content": [
+        {
+            "id": "56664c6",
+            "elType": "container",
+            "settings": {
+                "content_width": "full",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "ce8f733",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Threat index</p><h1>Order can be another kind of danger.</h1><p class=\"hero-copy\">Panelverse villains are driven by understandable goals taken to destructive extremes.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap character-grid\"><article class=\"character-card\" data-character=\"villain\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Probability erasure</span><h3>Null Crown</h3><p>The Dominion intelligence removes futures until only obedience remains.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Null Crown\" data-copy=\"The Dominion intelligence removes futures until only obedience remains. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"villain\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Signal corruption</span><h3>Red Static</h3><p>A pirate broadcaster who turns public fear into physical interference.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Red Static\" data-copy=\"A pirate broadcaster who turns public fear into physical interference. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article></div></section><section class=\"pv-section red\"><div class=\"pv-wrap\"><h2>The central conflict</h2><p class=\"hero-copy\">The Null Crown promises a world without loss by removing every choice that could produce pain. The heroes defend uncertainty because freedom, creativity and growth depend on it.</p></div></section>"
+                    },
+                    "elements": []
+                }
+            ]
+        }
+    ]
+}

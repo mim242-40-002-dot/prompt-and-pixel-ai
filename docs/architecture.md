@@ -1,23 +1,19 @@
 # Architecture
 
-## Overview
+## Private authoring layer
 
-Prompt & Pixel is a dependency-free static website served from the repository root. `index.html` contains semantic content and landmarks; CSS is separated into design tokens, global foundations, components and responsive rules; `js/main.js` progressively enhances navigation and project-specific interactions.
+The local CMS uses WordPress 7.0.2, PHP 8.3.33, MariaDB 10.11, Hello Elementor, the Panelverse child theme, Elementor Free 4.2.2, and Simply Static 3.8.8. WordPress custom post types model characters and stories. Elementor data is retained for all nine pages.
 
-## Structure
+## Public delivery layer
 
-- `index.html` — page content, metadata and accessible control labels
-- `css/variables.css` — color, spacing and fluid type tokens
-- `css/global.css` — reset, typography, layout and forms
-- `css/components.css` — project-specific cards and interactions
-- `css/responsive.css` — tablet and mobile layout changes
-- `js/main.js` — navigation, validation, filters, dialogs and optional project interactions
-- `assets/` — local images, icons and verified screenshots
+The repository root is a static production export for GitHub Pages. Original CSS shapes, SVG-like symbols, halftone layers, and abstract character panels avoid external comic artwork. JavaScript progressively enhances the menu, alignment filters, native dialog, timeline presentation, and honest static forms.
 
-## State and data
+## Repository boundaries
 
-State is intentionally local and temporary. Filters, tabs, dialogs and the simulated chatbot use in-memory DOM state. No personal data is stored or transmitted. Forms validate locally and expose a user-initiated email link.
+- `wordpress-source/` — the portable Panelverse child theme
+- `wordpress-evidence/` — sanitized WXR, Elementor JSON, manifest, notes, and export instructions
+- Minimal `wp-content/` and `wp-includes/` assets — only dependencies referenced by production pages
+- Page directories and root `index.html` — the public multi-page site
+- `assets/screenshots/` — real public and WordPress/export evidence
 
-## Responsive strategy
-
-Fluid type and spacing handle intermediate widths. Structural breakpoints at 900px and 600px reorganize columns, navigation, forms and interactive surfaces rather than simply shrinking them.
+No database, PHP runtime, plugin core, local configuration, credential, Marvel asset, or server-side form is part of the GitHub Pages runtime.

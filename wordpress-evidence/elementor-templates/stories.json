@@ -1,0 +1,34 @@
+{
+    "version": "4.2.2",
+    "title": "Stories",
+    "type": "page",
+    "page_settings": {},
+    "content": [
+        {
+            "id": "fd56a49",
+            "elType": "container",
+            "settings": {
+                "content_width": "full",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "3d7e540",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Story index</p><h1>Start with any issue.</h1><p class=\"hero-copy\">Each short arc has a clear entry point, visual tone and central question.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap story-grid\"><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 001</span><h3>The signal beneath the city</h3><p>Mara maps a light pattern no telescope can explain.</p></article><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 002</span><h3>Three sunsets</h3><p>The Fracture overlays Meridian with two impossible worlds.</p></article><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 003</span><h3>The memory in shadow</h3><p>Vanta Echo finds evidence that the disaster has happened before.</p></article><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 004</span><h3>City of borrowed suns</h3><p>The Null Crown begins collapsing the remaining possibilities.</p></article><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 005</span><h3>Everybody moves</h3><p>Rift Runner turns a citywide evacuation into a coordinated leap.</p></article><article class=\"story-issue\"><span class=\"issue-no\">ISSUE 006</span><h3>A future worth risking</h3><p>The team chooses an uncertain world over a perfect prison.</p></article></div></section>"
+                    },
+                    "elements": []
+                }
+            ]
+        }
+    ]
+}

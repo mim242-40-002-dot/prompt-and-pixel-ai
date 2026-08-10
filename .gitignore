@@ -1,4 +1,14 @@
 Thumbs.db
 .DS_Store
 .env
+.env.*
 node_modules/
+wp-config.php
+*.sql
+*.sqlite
+database/
+cache/
+wp-content/cache/
+wordpress-core/
+local-config/
+tools/wp-runtime/

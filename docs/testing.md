@@ -1,29 +1,24 @@
 # Testing
 
-## Completed checks
+## Verified checks — 11 August 2026
 
-Testing was performed against the final local source on August 9, 2026.
-
-| Area | Actual result |
+| Area | Evidence-based result |
 |---|---|
-| Static structure | Passed: titles, descriptions, landmarks, unique IDs, internal anchors, local assets, alt attributes and required files |
-| JavaScript syntax | Passed with Node syntax checking |
-| Responsive matrix | Passed at 320×568, 360×800, 375×667, 390×844, 412×915, 768×1024, 1024×768, 1280×720, 1366×768, 1440×900 and 1920×1080; no horizontal overflow remained after fixes |
-| Interaction | Passed: mobile navigation and accessible workflow tabs |
-| Forms | Required fields, email format and honest “nothing was sent” status verified where applicable |
-| Images | Local files resolved; browser reported no failed image loads |
-| Console | No browser warnings or errors on the tested page |
-| Screenshots | Captured desktop, mobile, tablet, feature-section and full-page desktop evidence |
-| Browser | Passed in the Codex in-app Chromium browser |
+| Static structure | Passed across nine exported HTML pages: title, viewport, main landmark, primary heading, unique IDs, anchors, local targets, and required repository files |
+| JavaScript syntax | Ten production JavaScript files passed the Node syntax parser |
+| Assets | All 280 page references resolved; the character artwork is CSS/SVG-based, so no HTML image element is required |
+| Responsive matrix | Passed at 390×844, 768×1024, 1366×768, 1440×900, and 1920×1080 with no horizontal overflow or broken image |
+| Navigation | The mobile menu updated its expanded state and exposed all primary destinations |
+| Character filters | Rivals exposed Null Crown and Red Static while hiding hero entries |
+| Profile dialog | The profile dialog opened, moved focus to its Close control, and closed through its labelled button |
+| Contact form | Local validation produced an explicit status that no information was transmitted or stored |
+| Console | No public-page browser error was recorded during the archive regression check |
+| WordPress export | Simply Static completed with the preserved GitHub Pages URL; the public output contains no PHP, localhost URL, or WordPress administration link |
 
-## Accessibility review
+## Accessibility and originality review
 
-Semantic landmarks, a single page heading, labelled controls, visible focus treatment, keyboard-operable navigation and controls, Escape handling, focus restoration, reduced-motion support and meaningful link text were checked. Automated Lighthouse/axe packages were not installed, so no numeric score is reported.
+Testing covered skip links, landmarks, headings, filter pressed states, dialog labelling and focus, meaningful controls, visible focus indicators, reduced-motion CSS, and keyboard-operable navigation. The interface and character system were also reviewed for originality: the public site identifies itself as an independent educational concept and contains no Marvel character, logo, copied layout, or licensed artwork claim.
 
-## Browser limitations
+## Browser and performance boundaries
 
-Firefox and WebKit executables were not available in the bundled environment. Safari hardware testing is unavailable on Windows. Standards-based HTML/CSS/JavaScript and reduced-motion fallbacks are used, but those browsers are recorded as not device-tested rather than claimed as passed.
-
-## Contrast regression — August 9, 2026
-
-The case-study cards were retested after a dark-section inheritance defect was reported. Computed styles now resolve to dark text (`rgb(16, 18, 37)`) on white cards and white text on dark action buttons. The updated section has no horizontal overflow, missing images or browser console issues. Modal opening, Escape dismissal and focus restoration were also rechecked.
+The tested browser was the Codex in-app Chromium browser. Firefox, Safari, and WebKit hardware were unavailable and are not claimed as verified. No Lighthouse score is reported. Performance observations are limited to the implemented static architecture, original CSS/SVG artwork, restrained animation, reduced-motion rules, and reduced production dependency set.
