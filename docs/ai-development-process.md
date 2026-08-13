@@ -1,21 +1,17 @@
 # AI-assisted development process
 
-## Planning
+## Planning and research
 
-AI assistance helped expand the assignment into a concrete audience, information architecture, visual direction and risk checklist. The selected concept positions AI as an aid that remains subject to human judgement.
+AI assistance helped convert the assignment into a nine-route information architecture, interaction model, responsive checklist, and rights-aware presentation. Character facts were checked against official Marvel and DC profile pages rather than generated as unsupported canon.
 
-## Code generation and manual customization
+## Code and visual system
 
-Initial semantic structures, CSS systems and interaction patterns were AI-assisted. They were then consolidated into readable dependency-free HTML, CSS and JavaScript. Generic copy and unnecessary effects were removed; the visual hierarchy, responsible-use language and responsive behavior were customized manually.
+Semantic page structures, a consistent profile schema, responsive CSS, and dependency-free JavaScript were AI-assisted and then consolidated into an auditable static release. The final character portraits are original code-native illustrations; no external promotional artwork is used.
 
-## Design decisions
+## Image-generation boundary
 
-The interface uses a cool technical palette, visible grids and a four-gate workflow to make review—not automation—the central visual idea. No external AI API is represented or implied.
+A cohesive generated poster was attempted twice for the social card. Both attempts were rejected during image safety review. The project therefore omits a generated social bitmap and records the outcome honestly rather than claiming an asset that does not exist.
 
-## Validation and corrections
+## Validation
 
-The final QA covers syntax, links, assets, metadata, keyboard paths, responsive overflow, console errors and available accessibility/performance tooling. Actual results are recorded in `testing.md`; no score is fabricated.
-
-## Accessibility and performance
-
-Semantic controls, visible focus, reduced motion, fluid layouts, local assets and deferred minimal JavaScript are part of the implementation rather than a final cosmetic pass.
+QA covers syntax, links, local assets, official sources, metadata, keyboard paths, dialogs, focus return, static-service disclosures, responsive overflow, reduced motion, and console behavior. No performance score, remote AI model, or server capability is fabricated.

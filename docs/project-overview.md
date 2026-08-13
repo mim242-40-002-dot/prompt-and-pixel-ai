@@ -2,22 +2,23 @@
 
 ## Concept
 
-Panelverse Comics is an original educational comic universe built for the Website 06 assignment. It explores a bold superhero-comic visual language without copying a commercial entertainment website or using licensed characters.
+HeroVerse Fan Archive is an independent, non-commercial educational interface that compares eight established comic characters without presenting itself as an official Marvel or DC product. Spider-Man, Thor, Iron Man, Hulk, Doctor Strange, Loki, and Thanos are Marvel characters; Green Arrow is a clearly identified DC guest.
 
 ## Assignment connection
 
-The assignment requested an AI-assisted full website. The final solution documents an original concept, a WordPress/Elementor content model, accessible custom interactions, and a static GitHub Pages deployment at the preserved Prompt & Pixel repository URL.
+Website 06 demonstrates AI-assisted planning, WordPress and Elementor authoring, structured content, accessible front-end interaction, responsible attribution, and a static GitHub Pages deployment. The work keeps the existing repository and URL while providing a complete nine-route redesign.
 
 ## Audience
 
-- Students and educators reviewing original UI/UX and WordPress practice
-- Comic readers interested in an independent world, characters, and timeline
-- Portfolio reviewers evaluating responsive, accessible, motion-aware interaction
+- Students evaluating WordPress, Elementor, static export, and UI/UX practice
+- Comic readers comparing identity, role, abilities, and narrative themes
+- Portfolio reviewers testing responsive, accessible, motion-aware interactions
 
 ## Goals
 
-- Create a distinctive comic-inspired design with restrained cinematic motion
-- Provide useful navigation across universe, character, story, and timeline content
-- Make filters and profile dialogs operable by keyboard
-- Clearly disclose the independent educational status
-- Keep the existing repository and public URL while replacing the former design
+- Create a distinctive archive-style comic interface using original CSS artwork
+- Provide source-supported profile facts and visible official links
+- Keep fan crossover prompts clearly separate from canon information
+- Make filters, dialogs, forms, and navigation operable by keyboard
+- State ownership and non-affiliation prominently
+- Preserve the public URL and route structure

@@ -2,14 +2,16 @@
 
 ```mermaid
 flowchart TD
-    A[Enter Panelverse]
-    B[Understand the fracture premise]
-    C[Browse heroes or villains]
-    D[Filter the character archive]
-    E[Open an accessible profile dialog]
-    F[Explore stories and timeline]
-    G[Use Fan Zone or contact validation locally]
-    A --> B --> C --> D --> E --> F --> G
+    A[Enter HeroVerse]
+    B[Read the fan-project boundary]
+    C[Browse all profiles or select Heroes and Villains]
+    D[Filter by Marvel, DC, hero, or villain]
+    E[Open a keyboard-accessible profile]
+    F[Follow the official source or explore fan stories]
+    G[Compare characters in the local Fan Zone]
+    H[Use honest contact validation]
+    A --> B --> C --> D --> E
+    E --> F --> G --> H
 ```
 
-The sequence balances world-building with task clarity and keeps non-transmitting fan/contact interactions explicit.
+The flow makes publisher ownership and the canon/fan boundary visible before deeper interaction. Local-only features explicitly state that nothing is transmitted or stored.

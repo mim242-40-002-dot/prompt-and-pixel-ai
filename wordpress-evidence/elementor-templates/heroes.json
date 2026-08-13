@@ -1,34 +1,44 @@
 {
-    "version": "4.2.2",
-    "title": "Heroes",
-    "type": "page",
-    "page_settings": {},
-    "content": [
+  "version": "0.4",
+  "title": "HeroVerse - Heroes",
+  "type": "page",
+  "page_settings": {
+    "background_color": "#f3efe4",
+    "body_color": "#07101f"
+  },
+  "content": [
+    {
+      "id": "hv-heroes",
+      "elType": "container",
+      "settings": {
+        "css_classes": "heroverse-page",
+        "html_tag": "main"
+      },
+      "elements": [
         {
-            "id": "f685b58",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": true
-                }
-            },
-            "elements": [
-                {
-                    "id": "7a4ea44",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Character archive</p><h1>Guardians of the fracture.</h1><p class=\"hero-copy\">Filter the archive and open a keyboard-accessible profile for each original character.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap\"><div class=\"filter-strip\" aria-label=\"Character filters\"><button class=\"pv-filter\" data-alignment=\"all\" aria-pressed=\"true\">All</button><button class=\"pv-filter\" data-alignment=\"hero\" aria-pressed=\"false\">Heroes</button><button class=\"pv-filter\" data-alignment=\"villain\" aria-pressed=\"false\">Rivals</button></div><div class=\"character-grid\"><article class=\"character-card\" data-character=\"hero\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Light architecture</span><h3>Nova Circuit</h3><p>Engineer Mara Voss builds temporary hard-light tools from mathematical sketches.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Nova Circuit\" data-copy=\"Engineer Mara Voss builds temporary hard-light tools from mathematical sketches. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"hero\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Kinetic echo</span><h3>Rift Runner</h3><p>Ilyas Reed stores movement and releases it through acrobatic jumps.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Rift Runner\" data-copy=\"Ilyas Reed stores movement and releases it through acrobatic jumps. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"hero\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Shadow memory</span><h3>Vanta Echo</h3><p>Dr. Sena Kade reads emotional history preserved inside darkness.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Vanta Echo\" data-copy=\"Dr. Sena Kade reads emotional history preserved inside darkness. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"hero\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Living systems</span><h3>Verdant Warden</h3><p>A guardian grown by the Verdant Engine to negotiate with humanity.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Verdant Warden\" data-copy=\"A guardian grown by the Verdant Engine to negotiate with humanity. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"villain\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Probability erasure</span><h3>Null Crown</h3><p>The Dominion intelligence removes futures until only obedience remains.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Null Crown\" data-copy=\"The Dominion intelligence removes futures until only obedience remains. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article><article class=\"character-card\" data-character=\"villain\"><div class=\"character-art\"></div><div class=\"character-info\"><span class=\"power\">Signal corruption</span><h3>Red Static</h3><p>A pirate broadcaster who turns public fear into physical interference.</p><button class=\"profile-btn\" type=\"button\" data-profile data-name=\"Red Static\" data-copy=\"A pirate broadcaster who turns public fear into physical interference. Each profile is an original character entry managed through the WordPress content model.\">Open profile -></button></div></article></div><dialog class=\"pv-dialog\"><div class=\"dialog-inner\"><button class=\"dialog-close\" type=\"button\" aria-label=\"Close profile\">Close</button><p class=\"kicker\">Character file</p><h2 data-dialog-title></h2><p data-dialog-copy></p></div></dialog></div></section>"
-                    },
-                    "elements": []
-                }
-            ]
+          "id": "hv-heroes-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Heroes",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "hv-heroes-content",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Spider-Man, Thor, Iron Man, Hulk, Doctor Strange and Green Arrow profile archive."
+          }
         }
-    ]
+      ]
+    }
+  ],
+  "metadata": {
+    "route": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/heroes/",
+    "project": "HeroVerse Fan Archive",
+    "sanitized": true,
+    "export_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/"
+  }
 }

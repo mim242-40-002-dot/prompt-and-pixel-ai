@@ -1,34 +1,44 @@
 {
-    "version": "4.2.2",
-    "title": "Fan Zone",
-    "type": "page",
-    "page_settings": {},
-    "content": [
+  "version": "0.4",
+  "title": "HeroVerse - Fan Zone",
+  "type": "page",
+  "page_settings": {
+    "background_color": "#f3efe4",
+    "body_color": "#07101f"
+  },
+  "content": [
+    {
+      "id": "hv-fan-zone",
+      "elType": "container",
+      "settings": {
+        "css_classes": "heroverse-page",
+        "html_tag": "main"
+      },
+      "elements": [
         {
-            "id": "d7950df",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": true
-                }
-            },
-            "elements": [
-                {
-                    "id": "3f9b158",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Fan zone</p><h1>Your idea belongs in the margins.</h1><p class=\"hero-copy\">Choose a prompt, imagine an original character and learn how the concept would be tested for clarity and responsible use.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap two-col\"><div><h2>Creation prompts</h2><div class=\"panel-grid\" style=\"grid-template-columns:1fr\"><article class=\"comic-panel\"><h3>Power + cost</h3><p>What can the character do, and what meaningful limitation prevents easy solutions?</p></article><article class=\"comic-panel\"><h3>Place + purpose</h3><p>Which community shaped them, and what are they trying to protect?</p></article></div></div><form class=\"pv-form\" data-static-form><label>Character codename<input name=\"codename\" required></label><label>Alignment<select name=\"alignment\"><option>Guardian</option><option>Rival</option><option>Unresolved</option></select></label><label>Power and limitation<textarea name=\"concept\" rows=\"6\" required></textarea></label><button class=\"pv-btn\" type=\"submit\">Check concept</button><p class=\"pv-status\" role=\"status\"></p></form></div></section>"
-                    },
-                    "elements": []
-                }
-            ]
+          "id": "hv-fan-zone-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Fan Zone",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "hv-fan-zone-content",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Local character comparison and fan prompt interaction."
+          }
         }
-    ]
+      ]
+    }
+  ],
+  "metadata": {
+    "route": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/fan-zone/",
+    "project": "HeroVerse Fan Archive",
+    "sanitized": true,
+    "export_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/"
+  }
 }

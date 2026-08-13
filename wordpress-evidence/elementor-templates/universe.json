@@ -1,34 +1,44 @@
 {
-    "version": "4.2.2",
-    "title": "Universe",
-    "type": "page",
-    "page_settings": {},
-    "content": [
+  "version": "0.4",
+  "title": "HeroVerse - Universe",
+  "type": "page",
+  "page_settings": {
+    "background_color": "#f3efe4",
+    "body_color": "#07101f"
+  },
+  "content": [
+    {
+      "id": "hv-universe",
+      "elType": "container",
+      "settings": {
+        "css_classes": "heroverse-page",
+        "html_tag": "main"
+      },
+      "elements": [
         {
-            "id": "6fc737d",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": true
-                }
-            },
-            "elements": [
-                {
-                    "id": "37bad46",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">World guide</p><h1>Three worlds share one horizon.</h1><p class=\"hero-copy\">The Fracture overlays places that should never meet. Each reality changes the rules of energy, memory and identity.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap world-grid\"><article class=\"world-card\"><p class=\"kicker\">Reality A</p><h3>Meridian City</h3><p>A vertical coastal metropolis powered by solar glass and public transit rings. It is the story's human anchor.</p></article><article class=\"world-card\"><p class=\"kicker\">Reality B</p><h3>The Verdant Engine</h3><p>A living machine-world where buildings grow, adapt and remember every person who enters.</p></article><article class=\"world-card\"><p class=\"kicker\">Reality C</p><h3>Null Dominion</h3><p>A silent geometric empire that removes uncertainty by erasing every possible alternative.</p></article></div></section><section class=\"pv-section yellow\"><div class=\"pv-wrap two-col\"><div><h2>Rules of the rift</h2><p>The overlap is strongest at sunset. Powers intensify near mirrored surfaces, but each use leaves an echo that the Null Crown can follow.</p></div><div class=\"comic-panel\"><h3>Archive note</h3><p>The universe is intentionally original. Its visual language references general comic grammar - panels, captions, bursts and halftone texture - without copying a commercial franchise.</p></div></div></section>"
-                    },
-                    "elements": []
-                }
-            ]
+          "id": "hv-universe-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Universe",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "hv-universe-content",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Publisher guide, evidence boundaries and archive editorial rules."
+          }
         }
-    ]
+      ]
+    }
+  ],
+  "metadata": {
+    "route": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/universe/",
+    "project": "HeroVerse Fan Archive",
+    "sanitized": true,
+    "export_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/"
+  }
 }

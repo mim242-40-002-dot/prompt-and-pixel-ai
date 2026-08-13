@@ -1,34 +1,44 @@
 {
-    "version": "4.2.2",
-    "title": "Contact",
-    "type": "page",
-    "page_settings": {},
-    "content": [
+  "version": "0.4",
+  "title": "HeroVerse - Contact",
+  "type": "page",
+  "page_settings": {
+    "background_color": "#f3efe4",
+    "body_color": "#07101f"
+  },
+  "content": [
+    {
+      "id": "hv-contact",
+      "elType": "container",
+      "settings": {
+        "css_classes": "heroverse-page",
+        "html_tag": "main"
+      },
+      "elements": [
         {
-            "id": "aba76cd",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": true
-                }
-            },
-            "elements": [
-                {
-                    "id": "d7235bd",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Contact</p><h1>Send a signal.</h1><p class=\"hero-copy\">This academic static demo validates locally and does not transmit personal information.</p></div></section><section class=\"page-section\"><div class=\"pv-wrap two-col\"><div><h2>Project channel</h2><p>Use the form to test accessible validation and status messaging, or prepare an email using the link below.</p><a class=\"pv-btn\" href=\"mailto:student@example.invalid\">Prepare email</a></div><form class=\"pv-form\" data-static-form><label>Name<input name=\"name\" required autocomplete=\"name\"></label><label>Email<input type=\"email\" name=\"email\" required autocomplete=\"email\"></label><label>Message<textarea name=\"message\" rows=\"6\" required></textarea></label><button class=\"pv-btn\" type=\"submit\">Check message</button><p class=\"pv-status\" role=\"status\"></p></form></div></section>"
-                    },
-                    "elements": []
-                }
-            ]
+          "id": "hv-contact-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "hv-contact-content",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Honest client-side contact form demonstration."
+          }
         }
-    ]
+      ]
+    }
+  ],
+  "metadata": {
+    "route": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/contact/",
+    "project": "HeroVerse Fan Archive",
+    "sanitized": true,
+    "export_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/"
+  }
 }

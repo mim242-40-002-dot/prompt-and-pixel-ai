@@ -1,24 +1,19 @@
-# Testing
+# Testing record
 
-## Verified checks — 11 August 2026
+## Release candidate - 13 August 2026
 
-| Area | Evidence-based result |
+| Area | Verified result |
 |---|---|
-| Static structure | Passed across nine exported HTML pages: title, viewport, main landmark, primary heading, unique IDs, anchors, local targets, and required repository files |
-| JavaScript syntax | Ten production JavaScript files passed the Node syntax parser |
-| Assets | All 280 page references resolved; the character artwork is CSS/SVG-based, so no HTML image element is required |
-| Responsive matrix | Passed at 390×844, 768×1024, 1366×768, 1440×900, and 1920×1080 with no horizontal overflow or broken image |
-| Navigation | The mobile menu updated its expanded state and exposed all primary destinations |
-| Character filters | Rivals exposed Null Crown and Red Static while hiding hero entries |
-| Profile dialog | The profile dialog opened, moved focus to its Close control, and closed through its labelled button |
-| Contact form | Local validation produced an explicit status that no information was transmitted or stored |
-| Console | No public-page browser error was recorded during the archive regression check |
-| WordPress export | Simply Static completed with the preserved GitHub Pages URL; the public output contains no PHP, localhost URL, or WordPress administration link |
-
-## Accessibility and originality review
-
-Testing covered skip links, landmarks, headings, filter pressed states, dialog labelling and focus, meaningful controls, visible focus indicators, reduced-motion CSS, and keyboard-operable navigation. The interface and character system were also reviewed for originality: the public site identifies itself as an independent educational concept and contains no Marvel character, logo, copied layout, or licensed artwork claim.
+| Static structure | Passed: nine HTML routes, one primary heading per page, semantic `main` landmarks, unique IDs, valid internal anchors, and all local targets present |
+| JavaScript | Passed `node --check`; the Codex Chromium regression session recorded no page console error |
+| Character archive | Passed: eight requested profiles contain publisher, identity, role, abilities, biography, and an official publisher source link |
+| Filters | Passed: All 8, Marvel 7, DC 1, Heroes 6, and Villains 2; pressed state and live count update together |
+| Profile dialog | Passed for all eight profiles: labelled native dialog, focus to Close, Escape dismissal, and focus return to the trigger |
+| Service boundary | Passed: Fan Zone prompt/vote and Contact validation remain local and explicitly deny remote AI, database, email, or account service |
+| Responsive matrix | Passed at 390x844, 768x1024, 1366x768, 1440x900, and 1920x1080 with matching client/scroll widths, eight cards, and zero broken images |
+| Accessibility | Passed practical review for skip link, landmarks, heading order, visible focus, labels, live regions, keyboard operation, native controls, and reduced-motion CSS |
+| Export safety | Passed public-file scan for localhost, WordPress administration links, PHP dependencies, credentials, secrets, publisher logos, actor likenesses, movie stills, comic scans, and false affiliation language |
 
 ## Browser and performance boundaries
 
-The tested browser was the Codex in-app Chromium browser. Firefox, Safari, and WebKit hardware were unavailable and are not claimed as verified. No Lighthouse score is reported. Performance observations are limited to the implemented static architecture, original CSS/SVG artwork, restrained animation, reduced-motion rules, and reduced production dependency set.
+These results describe the 13 August 2026 release candidate in the Codex in-app Chromium browser. The final public commit and live URL are recorded after GitHub Pages deployment. No Lighthouse score, Safari result, Firefox result, WebKit hardware result, or unobserved assistive-technology outcome is claimed.

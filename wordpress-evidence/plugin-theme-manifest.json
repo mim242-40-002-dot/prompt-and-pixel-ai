@@ -1,32 +1,26 @@
 {
-    "wordpress": "7.0.2",
+  "captured": "2026-08-13",
+  "site": "HeroVerse Fan Archive",
+  "development": "private-local",
+  "runtime": {
     "php": "8.3.33",
-    "theme": {
-        "name": "Panelverse Child",
-        "version": "1.0.0",
-        "template": "hello-elementor"
-    },
-    "plugins": [
-        {
-            "name": "Elementor",
-            "version": "4.2.2",
-            "slug": "elementor"
-        },
-        {
-            "name": "Simply Static",
-            "version": "3.8.8",
-            "slug": "simply-static"
-        }
-    ],
-    "pages": [
-        "about.json",
-        "contact.json",
-        "fan-zone.json",
-        "heroes.json",
-        "home.json",
-        "stories.json",
-        "timeline.json",
-        "universe.json",
-        "villains.json"
-    ]
+    "mariadb": "10.11",
+    "wordpress": "7.0.2"
+  },
+  "theme": {
+    "parent": "Hello Elementor 3.4.9",
+    "child": "HeroVerse Archive 2.0.0"
+  },
+  "plugins": [
+    "Elementor Free 4.2.2",
+    "Simply Static 3.8.8"
+  ],
+  "public_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/",
+  "excluded": [
+    "database",
+    "wp-config.php",
+    "credentials",
+    "caches",
+    "private configuration"
+  ]
 }

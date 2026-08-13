@@ -1,34 +1,44 @@
 {
-    "version": "4.2.2",
-    "title": "Timeline",
-    "type": "page",
-    "page_settings": {},
-    "content": [
+  "version": "0.4",
+  "title": "HeroVerse - Timeline",
+  "type": "page",
+  "page_settings": {
+    "background_color": "#f3efe4",
+    "body_color": "#07101f"
+  },
+  "content": [
+    {
+      "id": "hv-timeline",
+      "elType": "container",
+      "settings": {
+        "css_classes": "heroverse-page",
+        "html_tag": "main"
+      },
+      "elements": [
         {
-            "id": "d0c9135",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": "0",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": true
-                }
-            },
-            "elements": [
-                {
-                    "id": "2fbc867",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<section class=\"page-hero\"><div class=\"pv-wrap\"><p class=\"kicker\">Universe timeline</p><h1>Six nights changed Meridian.</h1></div></section><section class=\"page-section\"><div class=\"pv-wrap timeline\"><article class=\"timeline-item\" data-year=\"DAY 0\"><h3>The hidden signal</h3><p>Nova Circuit detects impossible geometry inside the city's solar grid.</p></article><article class=\"timeline-item\" data-year=\"DAY 1\"><h3>The fracture</h3><p>Three realities overlap at sunset; transit and communication fail.</p></article><article class=\"timeline-item\" data-year=\"DAY 2\"><h3>First alliance</h3><p>Rift Runner and Vanta Echo rescue commuters trapped between dimensions.</p></article><article class=\"timeline-item\" data-year=\"DAY 3\"><h3>The Crown speaks</h3><p>The Dominion offers safety in exchange for permanent control.</p></article><article class=\"timeline-item\" data-year=\"DAY 5\"><h3>Red Static</h3><p>A pirate signal amplifies fear and fractures the new alliance.</p></article><article class=\"timeline-item\" data-year=\"DAY 6\"><h3>Open future</h3><p>The team restores separate horizons while preserving a narrow bridge between worlds.</p></article></div></section>"
-                    },
-                    "elements": []
-                }
-            ]
+          "id": "hv-timeline-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Timeline",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "hv-timeline-content",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Source-supported milestones separated from fan-created events."
+          }
         }
-    ]
+      ]
+    }
+  ],
+  "metadata": {
+    "route": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/timeline/",
+    "project": "HeroVerse Fan Archive",
+    "sanitized": true,
+    "export_target": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/"
+  }
 }

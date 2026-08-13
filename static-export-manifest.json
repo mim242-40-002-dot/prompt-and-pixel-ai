@@ -1,47 +1,27 @@
 {
   "publicBase": "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/",
-  "files": [
-    ".",
-    "about/",
-    "about/index.html",
-    "contact/",
-    "contact/index.html",
-    "fan-zone/",
-    "fan-zone/index.html",
-    "heroes/",
-    "heroes/index.html",
-    "index.html",
-    "stories/",
-    "stories/index.html",
-    "timeline/",
-    "timeline/index.html",
-    "universe/",
-    "universe/index.html",
-    "villains/",
-    "villains/index.html",
-    "wp-content/plugins/elementor/assets/",
-    "wp-content/plugins/elementor/assets/css/frontend.min.css",
-    "wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
-    "wp-content/plugins/elementor/assets/js/frontend.min.js",
-    "wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
-    "wp-content/themes/hello-elementor/assets/css/header-footer.css",
-    "wp-content/themes/hello-elementor/assets/css/reset.css",
-    "wp-content/themes/hello-elementor/assets/css/theme.css",
-    "wp-content/themes/hello-elementor/assets/js/hello-frontend.js",
-    "wp-content/themes/hello-elementor/style.css",
-    "wp-content/themes/panelverse-child/style.css",
-    "wp-content/themes/panelverse-child/theme.js",
-    "wp-content/uploads",
-    "wp-content/uploads/elementor/css/base-desktop.css",
-    "wp-content/uploads/elementor/css/base-mobile.css",
-    "wp-includes/js/jquery/jquery-migrate.min.js",
-    "wp-includes/js/jquery/jquery.min.js",
-    "wp-includes/js/jquery/ui/core.min.js",
-    "wp-includes/js/wp-emoji-release.min.js"
+  "routes": [
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/universe/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/heroes/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/villains/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/stories/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/timeline/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/fan-zone/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/about/",
+    "https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/contact/"
   ],
-  "missing": [],
+  "runtime": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "generated": "2026-08-13",
   "post_export_enhancements": [
-    "Open Graph and Twitter Card metadata injected into every exported HTML page.",
-    "assets/social/og-panelverse.png"
-  ]
+    "Canonical and Open Graph text metadata",
+    "Accessible dialogs and filters",
+    "Original CSS character illustrations"
+  ],
+  "social_image": null,
+  "social_image_note": "Image generation did not pass safety review; no fallback promotional image is claimed or shipped."
 }

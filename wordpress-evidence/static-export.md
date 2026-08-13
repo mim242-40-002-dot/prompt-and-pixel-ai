@@ -1,11 +1,12 @@
 # Simply Static export workflow
 
-1. Run the private WordPress authoring site locally and regenerate Elementor CSS.
-2. Test all nine pages plus character filters, dialogs, navigation, contact feedback, and reduced-motion behavior.
-3. Configure Simply Static for the absolute destination `https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/` and local-directory delivery to an isolated staging folder.
-4. Run the export, retry unresolved public HTML after releasing the single-threaded development server, and transfer the completed archive.
-5. Sanitize WordPress-only speculation rules, admin AJAX data, nonces, generator metadata, and unused feeds.
-6. Select the referenced production dependency set and record it in `static-export-manifest.json`.
-7. Confirm the final HTML contains no localhost, admin, login, PHP, configuration, password, or token reference before placing it in the repository root.
+1. Run the private WordPress authoring site and regenerate Elementor CSS.
+2. Review all nine pages, reusable sections, profile data, official links, publisher labels, rights disclaimer, and responsive controls.
+3. Test navigation, combined filters, all profile dialogs, Escape closing, focus return, Fan Zone controls, contact validation, and reduced motion.
+4. Configure Simply Static with `https://mim242-40-002-dot.github.io/prompt-and-pixel-ai/` as the absolute destination and an isolated local staging directory.
+5. Export, then remove development-only metadata, nonces, administration references, unused feeds, and unneeded plugin/runtime files.
+6. Confirm that all nine legacy routes resolve and that every referenced local asset exists.
+7. Scan the final output for localhost URLs, `wp-admin`, login links, PHP dependencies, credentials, secrets, and misleading server-form claims.
+8. Place only the validated HTML, CSS, JavaScript, favicon, documentation, and safe authoring evidence in the repository.
 
-GitHub Pages serves only the static output. WordPress, Elementor, and MariaDB remain private development dependencies.
+GitHub Pages serves only the static release. WordPress, Elementor, PHP, and MariaDB remain private development dependencies.

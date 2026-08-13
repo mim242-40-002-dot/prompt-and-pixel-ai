@@ -1,6 +1,9 @@
-# Asset credits
+# Asset credits and rights boundary
 
-- Interface graphics and diagrams: original CSS and project documentation created for this repository.
-- Brand mark and favicon: original repository-native SVG created specifically for this project.
-- Social-sharing card: original bitmap generated with OpenAI's built-in ImageGen tool for this repository; it contains no Marvel character, logo, or licensed artwork.
-- No premium stock assets or third-party brand marks are included.
+- Interface, `HV` archive mark, diagrams, halftones, panel geometry, and portrait illustrations: original repository-native HTML/CSS created for this academic project.
+- Character names and trademarks: owned by their respective publishers. Seven profiles link to official Marvel pages and Green Arrow links to the official DC profile.
+- Fonts: Archivo Black and Inter are loaded from Google Fonts; system fallbacks remain available.
+- No publisher logo, actor likeness, movie still, comic scan, traced illustration, commercial cover recreation, premium stock asset, or hotlinked promotional image is included.
+- One AI-generated poster was planned, but both generation attempts were rejected during safety review. No generated bitmap is shipped or claimed.
+
+The site repeats its independent educational, non-commercial status in the footer and About page.
