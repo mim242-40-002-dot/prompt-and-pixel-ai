@@ -1,6 +1,6 @@
 # Asset credits and rights boundary
 
-- Interface, `HV` archive mark, diagrams, halftones, panel geometry, and portrait illustrations: original repository-native HTML/CSS created for this academic project.
+- Interface, `HV` archive mark, diagrams, halftones, panel geometry, and cartoon portrait illustrations: original repository-native HTML, inline SVG, and CSS created for this academic project.
 - Character names and trademarks: owned by their respective publishers. Seven profiles link to official Marvel pages and Green Arrow links to the official DC profile.
 - Fonts: Archivo Black and Inter are loaded from Google Fonts; system fallbacks remain available.
 - No publisher logo, actor likeness, movie still, comic scan, traced illustration, commercial cover recreation, premium stock asset, or hotlinked promotional image is included.

@@ -31,7 +31,7 @@ The repository intentionally excludes databases, SQL dumps, `wp-config.php`, cre
 
 ## UI, interaction, and accessibility
 
-- Original CSS-built portrait panels, halftone textures, geometric comic frames, and a custom `HV` archive mark
+- Original inline-SVG/CSS cartoon portrait panels, halftone textures, geometric comic frames, and a custom `HV` archive mark
 - Combined All, Marvel, DC, Heroes, and Villains filters
 - Native profile dialog with a consistent information model, initial focus, Escape support, backdrop close, and focus return
 - Responsive navigation, fluid grids, visible keyboard focus, semantic landmarks, skip link, live status messages, and reduced-motion support
@@ -44,7 +44,7 @@ WordPress remains the private authoring CMS. The production root is the validate
 
 ## Asset policy
 
-The interface contains no Marvel or DC logo, actor likeness, movie still, comic scan, traced artwork, copied commercial layout, or hotlinked promotional image. Portraits are original CSS-built fan illustrations. A planned generated poster did not pass image safety review, so the release does not claim or ship an AI-generated social bitmap.
+The interface contains no Marvel or DC logo, actor likeness, movie still, comic scan, traced artwork, copied commercial layout, or hotlinked promotional image. Portraits are original inline-SVG/CSS cartoon fan illustrations. A planned generated poster did not pass image safety review, so the release does not claim or ship an AI-generated social bitmap.
 
 ## Reproducing the private authoring environment
 

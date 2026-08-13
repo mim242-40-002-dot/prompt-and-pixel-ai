@@ -6,7 +6,7 @@ The private CMS uses WordPress 7.0.2, PHP 8.3.33, MariaDB 10.11, Hello Elementor
 
 ## Public delivery layer
 
-The repository root is a dependency-light static GitHub Pages release. Semantic HTML carries the content, `css/heroverse.css` provides responsive presentation and original CSS-built portrait illustrations, and `js/heroverse.js` progressively enhances navigation, combined filters, native dialogs, local fan prompts, preferences, and contact validation.
+The repository root is a dependency-light static GitHub Pages release. Semantic HTML carries the content and original inline-SVG cartoon portraits, `css/heroverse.css` provides responsive presentation, and `js/heroverse.js` progressively enhances navigation, combined filters, native dialogs, local fan prompts, preferences, and contact validation.
 
 ## Information model
 
